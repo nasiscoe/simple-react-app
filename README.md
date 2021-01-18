@@ -2,6 +2,25 @@
 
 A React.js template featuring sensible project navigation, environment variables, themes, and more.
 
+## Site Metadata
+
+CTRL+F in the project to change the following React app information:
+
+- `SAMPLE_PROJECT_NAME`: the name of your React app
+- `SAMPLE_DESCRIPTION`: the description of your React app
+- `SAMPLE_PREVIEW_IMAGE`: a preview image that displays when the link to your React app is shared
+
+## Environment Variables
+
+Modify the following files to set environment variables for this React app:
+
+- `.env.development`: environment variables for development (for `npm start`)
+- `.env.production`: environment variables for production (for `npm run build`)
+
+Environment variables must be formatted `REACT_APP_ENV_NAME_HERE=insertdatahere`, always preceded by `REACT_APP_`.
+
+Environment variables can be accessed using `process.env.REACT_APP_ENVIRONMENT_VARIABLE_NAME`.
+
 ## Available Scripts
 
 In the project directory, you can run:
