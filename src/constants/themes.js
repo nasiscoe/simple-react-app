@@ -1,18 +1,24 @@
 import React from 'react';
 
 export const themes = {
-   primary: {
+   light: {
      body: '#eee',
      text: '#000',
-     subtle: 'rgba(0, 0, 0, 0.3)'
+     subtle: 'rgba(0, 0, 0, 0.3)',
+     white: '#eee',
+     black: '#000',
+     primary: 'purple'
    },
-   secondary: {
+   dark: {
       body: '#000',
       text: '#eee',
-      subtle: 'rgba(256, 256, 256, 0.3)'
+      subtle: 'rgba(256, 256, 256, 0.3)',
+      white: '#eee',
+      black: '#000',
+      primary: 'purple'
    },
  };
 
  export const ThemeContext = React.createContext(
-   themes.primary // default value
+   themes.light // default value
  );

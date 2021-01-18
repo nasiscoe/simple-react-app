@@ -9,11 +9,11 @@ import Home from './views/home';
 
 const App = () => {
   const [state, setState] = useState({
-    theme: themes.primary
+    theme: themes.light
   });
 
   return (
-    <div style={{'background-color': state.theme.body, 'min-height': '100vh'}}>
+    <div style={{backgroundColor: state.theme.body, minHeight: '100vh'}}>
       <ThemeContext.Provider value={state.theme}>
         <Router>
           <Switch>
