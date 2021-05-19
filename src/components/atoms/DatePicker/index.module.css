@@ -1,0 +1,15 @@
+.date-wrapper {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.5em;
+  margin: 0;
+  border-radius: 0.5em;
+  font-size: calc(9px + 0.45vw);
+  background-color: rgba(0, 0, 0, 0.05);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.date-wrapper:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}

@@ -1,0 +1,34 @@
+.actextinput-wrapper {
+  border: none;
+  outline: none;
+  padding: 0.6em 0.5em;
+  margin: 0;
+  border-radius: 0.5em;
+  font-size: calc(9px + 0.45vw);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.actextinput-wrapper:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.actextinput-wrapper-disabled {
+  color: rgba(0, 0, 0, 0.5);
+  border: none;
+  outline: none;
+  padding: 0.6em 0.5em;
+  margin: 0;
+  border-radius: 0.5em;
+  font-size: calc(9px + 0.45vw);
+  background-color: rgba(0, 0, 0, 0.05);
+  cursor: default;
+}
+
+.actextinput-wrapper-disabled:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+::placeholder {
+  color: rgba(0, 0, 0, 0.2);
+  opacity: 1;
+}
